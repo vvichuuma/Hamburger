@@ -1,0 +1,224 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+
+header h1{
+	color: white;
+	text-align: center;
+	margin:0;
+	padding: 0;
+}
+
+body{
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+header{
+
+	background-color: black;
+	padding:1rem;
+}
+
+header ul{
+
+	width: 40%;
+    text-align: right;
+    float: right;
+    margin-top: -2.3rem;
+    margin-right: 1.7%;
+
+}
+
+header li{
+
+	list-style-type: none;
+	display: inline-block;
+	border:0.1rem solid white;
+	padding:0.5rem ;
+    margin-right: 3.5%;
+}
+
+
+
+#link_label{
+
+  background-color: black;
+  width: 100%;
+
+  margin:0;
+  padding: 0;
+
+}
+
+#link_label ul li{
+  
+  border:0.1rem solid white;
+  padding: 1rem ;
+  text-align: center;
+  animation-name: drop;
+  animation-duration: 3s;
+  color: white;
+
+
+}
+
+
+
+.ul li:hover{
+	background-color: white;
+}
+
+.ul li a:hover{
+
+	background-color:white;
+    color:black;
+	cursor:pointer;
+}
+
+#link_label ul li a{
+	 list-style-type: none;
+    text-decoration: none;
+    color: white;
+}
+
+.ul a{
+	 list-style-type: none;
+     text-decoration: none;
+     color: white;
+
+     
+}
+
+@keyframes drop{
+
+      0%{
+      	opacity: 0;
+      }
+
+      50%{
+      	opacity: 0.5;
+      }
+
+     100%{
+     	opacity: 1;
+     }
+
+
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+ .label{
+ 	display: block;
+ 	color: white;
+ 	font-size: 17px;
+ 	float: right;
+ 	margin-top: -2.2rem;
+ 	margin-right: 1.7rem;
+    border:0.1rem solid white;
+
+ }
+
+  .ul{
+  	display: none;
+  }
+
+   html{
+ 	font-size: 12px;
+ }
+
+
+ #link_label{
+ 	display: none;
+ }
+
+
+
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+ .label{
+ 	display: none;
+ }
+
+   html{
+ 	font-size: 13px;
+ }
+
+ #link_label{
+ 	display: none;
+ }
+
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+ .label{
+ 	display: none;
+ }
+
+  html{
+ 	font-size: 14px;
+ }
+
+ #link_label{
+ 	display: none;
+ }
+
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+ .label{
+ 	display: none;
+ }
+
+  html{
+ 	font-size: 15px;
+ }
+
+  #link_label{
+ 	display: none;
+ }
+
+
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+ .label{
+ 	display: none;
+ }
+ 
+ html{
+ 	font-size: 16px;
+ }
+
+
+ #link_label{
+ 	display: none;
+ }
+
+
+}
+
+
+
+
+
+
