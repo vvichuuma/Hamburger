@@ -59,7 +59,7 @@ header li{
   padding: 1rem ;
   text-align: center;
   animation-name: drop;
-  animation-duration: 3s;
+  animation-duration: 1.5s;
   color: white;
 
 
@@ -98,9 +98,7 @@ header li{
       	opacity: 0;
       }
 
-      50%{
-      	opacity: 0.5;
-      }
+   
 
      100%{
      	opacity: 1;
